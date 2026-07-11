@@ -16,12 +16,18 @@
 #baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
 baseurl: ""
 url: "https://lchehami.github.io"
+
+title: "Lynda Chehami"
+description: "Official academic website of Lynda Chehami, Associate Professor HDR in Physical Acoustics at UPHF, INSA Hauts-de-France and IEMN CNRS UMR 8520."
+
 future: true
 
-# Build settings
 markdown: kramdown
+
 plugins:
   - jekyll-email-protect
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
